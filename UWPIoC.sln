@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWP.IoC.Hosting", "src\UWP.IoC.Hosting\UWP.IoC.Hosting.csproj", "{143CCAF7-9FE6-4813-9020-5D59F3BF599A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Debug|ARM.Build.0 = Debug|ARM
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Debug|ARM64.Build.0 = Debug|ARM64
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Debug|x64.ActiveCfg = Debug|x64
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Debug|x64.Build.0 = Debug|x64
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Debug|x86.ActiveCfg = Debug|x86
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Debug|x86.Build.0 = Debug|x86
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Release|ARM.ActiveCfg = Release|ARM
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Release|ARM.Build.0 = Release|ARM
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Release|ARM64.ActiveCfg = Release|ARM64
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Release|ARM64.Build.0 = Release|ARM64
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Release|x64.ActiveCfg = Release|x64
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Release|x64.Build.0 = Release|x64
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Release|x86.ActiveCfg = Release|x86
+		{143CCAF7-9FE6-4813-9020-5D59F3BF599A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDA8CFCE-311E-4393-8479-81B836E56F3A}
+	EndGlobalSection
+EndGlobal

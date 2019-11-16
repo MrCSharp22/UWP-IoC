@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>UWPIoC</id>
+    <version>1.0.0-alpha01</version>
+    <authors>MrCSharp</authors>
+    <owners>MrCSharp</owners>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides IoC containers support to UWP projects</description>
+    <releaseNotes>ALPHA PreRelease</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>UWP IOC Dependencies</tags>
+    <dependencies>
+      <!-- <dependency id="SampleDependency" version="1.0" /> -->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="src\UWP.IoC.Hosting\bin\Release\UWP.IoC.Hosting.dll" target="lib\uap10.0"/>
+    <file src="src\UWP.IoC.Hosting\bin\Release\UWP.IoC.Hosting.pdb" target="lib\uap10.0"/>
+    <file src="src\UWP.IoC.Hosting\bin\Release\UWP.IoC.Hosting.pri" target="lib\uap10.0"/>
+  </files>
+</package>
