@@ -8,7 +8,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace UWP.IoC.Hosting
 {
-    public sealed class IoCFrame : Frame
+    public class IoCFrame : Frame
     {
         private readonly IServiceProvider serviceProvider;
 
@@ -20,7 +20,17 @@ namespace UWP.IoC.Hosting
             this.Navigated += OnFrameNavigated;
         }
 
-        private void OnFrameNavigated(object sender, NavigationEventArgs e)
+        public bool Navigate<TPage>()
+        {
+            return base.Navigate(typeof(TPage));
+        }
+
+        public bool Navigate<TPage>(object parameter)
+        {
+            return base.Navigate(typeof(TPage), parameter);
+        }
+
+        protected virtual void OnFrameNavigated(object sender, NavigationEventArgs e)
         {
             InjectViewModelIfRequired(e);
             InjectProperties(e);
