@@ -7,7 +7,7 @@ namespace UWP.IoC.Hosting
     {
         public IServiceProvider ServicesContainer { get; }
 
-        public Frame RootFrame { get; private set; }
+        public IoCFrame RootFrame { get; private set; }
 
         public Host(IServiceProvider servicesContainer)
         {
@@ -16,9 +16,7 @@ namespace UWP.IoC.Hosting
 
         public Frame CreateNewHostedUwpFrame()
         {
-            var newFrame = new IoCFrame(this.ServicesContainer);
-
-            this.RootFrame = newFrame;
+            this.RootFrame = new IoCFrame(this.ServicesContainer);
             return this.RootFrame;
         }
     }
